@@ -14,12 +14,20 @@ interface PlatWilayah {
 }
 
 export const metadata: Metadata = {
-  title: 'Cek Plat Nomor Indonesia - Cepat dan Akurat',
-  description: 'Cek informasi plat nomor Indonesia secara cepat dan akurat. Temukan asal daerah kendaraan, kode wilayah, dan detail nomor polisi dengan mudah.',
-  keywords: ['Plat Nomor Indonesia', 'Cek Plat Nomor', 'Informasi Plat Nomor'],
+  title: 'Cek Wilayah Plat Nomor Indonesia - Cepat & Akurat',
+  description: 'Temukan asal wilayah, daerah, dan lokasi kendaraan berdasarkan plat nomor Indonesia dengan mudah dan cepat.',
+  keywords: [
+    'Cek Wilayah Plat Nomor',
+    'Asal Plat Nomor Indonesia',
+    'Plat Nomor Daerah Mana',
+    'Cek Lokasi Kendaraan',
+  ],
+  icons: {
+    icon: "/favicon.ico"
+  },
   openGraph: {
-    title: 'Cek Informasi Plat Nomor Indonesia | Cek Plat Nomor Cepat dan Akurat',
-    description: 'Gunakan alat cek informasi plat nomor Indonesia kami untuk mengetahui lokasi, kode wilayah, dan detail nomor polisi dengan cepat dan akurat.',
+    title: 'Cek Wilayah Plat Nomor Indonesia - Cepat & Akurat',
+    description: 'Cari tahu asal daerah kendaraan dari plat nomor seperti B, AD, AB dan lainnya secara langsung dan akurat.',
     url: 'https://cek-plat.jeyy.xyz',
     type: 'website',
     images: [
@@ -51,7 +59,7 @@ export default function Page() {
       <section key={kode} className="mb-6">
         <h3 className="text-md font-semibold mb-1">Plat {kode} dari mana?</h3>
         <p>
-          Plat <strong>{kode}</strong> berasal dari wilayah <strong>{info.wilayah}</strong> di Pulau {info.pulau}, meliputi daerah seperti {daerahList}.
+          Plat {kode} berasal dari wilayah {info.wilayah} di Pulau {info.pulau}, meliputi daerah seperti {daerahList}.
         </p>
       </section>
     )
@@ -64,7 +72,7 @@ export default function Page() {
       const daerahList = info.daerah.map((d) => d.nama_daerah).join(', ')
       return {
         "@type": "Question",
-        name: `Plat ${kode} dari mana?`,
+        name: `Plat ${kode} dari daerah mana?`,
         acceptedAnswer: {
           "@type": "Answer",
           text: `Plat ${kode} berasal dari wilayah ${info.wilayah} di Pulau ${info.pulau}, meliputi daerah seperti ${daerahList}.`
@@ -78,12 +86,12 @@ export default function Page() {
       <PlatNomorChecker />
 
       <section className="mt-8 px-6 max-w-3xl mx-auto">
-        <h2 className="text-xl font-bold mb-4">Tentang Alat Cek Plat Nomor</h2>
-        <p>Alat ini membantu Anda mengetahui asal wilayah dari plat nomor seperti B, AD, AB, dan lainnya.</p>
+      <h2 className="text-xl font-bold mb-4">Tentang Alat Cek Wilayah Plat Nomor</h2>
+        <p>Alat ini membantu Anda mengetahui asal wilayah, daerah, atau lokasi dari plat nomor kendaraan seperti B, AD, AB, dan lainnya di seluruh Indonesia.</p>
       </section>
 
       <section className="mt-12 px-6 max-w-3xl mx-auto">
-        <h2 className="text-xl font-bold mb-4">Pertanyaan Umum tentang Plat Nomor</h2>
+        <h2 className="text-xl font-bold mb-4">Pertanyaan Umum tentang Wilayah Plat Nomor</h2>
         {faqSections}
         <script
           type="application/ld+json"

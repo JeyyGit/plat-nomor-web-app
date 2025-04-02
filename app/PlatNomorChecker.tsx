@@ -84,7 +84,9 @@ export default function PlatNomorChecker() {
         {isDark ? '☀️' : '🌙'}
       </button>
 
-      <h1 className="text-2xl font-bold mb-6">Cek Informasi Plat Nomor</h1>
+      <h1 className="text-2xl font-bold mb-6">
+        Cek Wilayah atau Daerah Asal Plat Nomor
+      </h1>
 
       <form onSubmit={handleSubmit} className="flex flex-col items-center gap-4">
         <div className="flex shadow-sm rounded overflow-hidden border border-gray-400 bg-white dark:bg-gray-800">
