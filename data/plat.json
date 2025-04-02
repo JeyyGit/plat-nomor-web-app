@@ -1,0 +1,2854 @@
+{
+	"BA": {
+		"pulau": "Sumatra",
+		"wilayah": "Sumatra Barat",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Padang",
+				"kode_awal": ["A", "B", "O", "Q", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lima Puluh Kota",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pasaman",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tanah Datar",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Padang Pariaman",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pesisir Selatan",
+				"kode_awal": ["G", "Z"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Solok",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Sawahlunto",
+				"kode_awal": ["J"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sijunjung",
+				"kode_awal": ["K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Bukittinggi",
+				"kode_awal": ["L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Payakumbuh",
+				"kode_awal": ["M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Padang Panjang",
+				"kode_awal": ["N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Solok",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pasaman Barat",
+				"kode_awal": ["S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Agam",
+				"kode_awal": ["T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kepulauan Mentawai",
+				"kode_awal": ["U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Dharmasraya",
+				"kode_awal": ["V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Pariaman",
+				"kode_awal": ["W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Solok Selatan",
+				"kode_awal": ["Y"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"BB": {
+		"pulau": "Sumatra",
+		"wilayah": "Sumatra Utara bagian Barat (Tapanuli)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Sibolga",
+				"kode_awal": ["A", "L", "N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tapanuli Utara",
+				"kode_awal": ["B"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Samosir",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Humbang Hasundutan",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Toba",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Padang Sidempuan",
+				"kode_awal": ["F", "H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tapanuli Selatan",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Padang Lawas Utara",
+				"kode_awal": ["J"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Padang Lawas",
+				"kode_awal": ["K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tapanuli Tengah",
+				"kode_awal": ["M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Nias Utara",
+				"kode_awal": ["Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mandailing Natal",
+				"kode_awal": ["R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Gunungsitoli",
+				"kode_awal": ["T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Nias Barat",
+				"kode_awal": ["U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah":"Nias",
+				"kode_awal": ["V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah":"Nias Selatan",
+				"kode_awal": ["W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Dairi",
+				"kode_awal": ["Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pakpak Bharat",
+				"kode_awal": ["Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"BD": {
+		"pulau": "Sumatra",
+		"wilayah": "Bengkulu",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Bengkulu",
+				"kode_awal": ["A", "C", "E", "L", "R", "U", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bengkulu Selatan",
+				"kode_awal": ["B", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bengkulu Utara",
+				"kode_awal": ["D", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Rejang Lebong",
+				"kode_awal": ["F", "I", "K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kepahiang",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lebong",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Muko Muko",
+				"kode_awal": ["N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Seluma",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kaur",
+				"kode_awal": ["W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bengkulu Tengah",
+				"kode_awal": ["Y"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"BE": {
+		"pulau": "Sumatra",
+		"wilayah": "Lampung",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Bandar Lampung",
+				"kode_awal": ["A", "B", "C", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lampung Selatan",
+				"kode_awal": ["D", "E", "O"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Metro",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lampung Tengah",
+				"kode_awal": ["G", "H", "I"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lampung Utara",
+				"kode_awal": ["J", "K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mesuji",
+				"kode_awal": ["L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lampung Barat",
+				"kode_awal": ["M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lampung Timur",
+				"kode_awal": ["N", "P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tulang Bawang Barat",
+				"kode_awal": ["Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pesawaran",
+				"kode_awal": ["R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tulang Bawang",
+				"kode_awal": ["S", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pringsewu",
+				"kode_awal": ["U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tanggamus",
+				"kode_awal": ["V", "Z"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Way Kanan",
+				"kode_awal": ["W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pesisir Barat",
+				"kode_awal": ["X"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"BG": {
+		"pulau": "Sumatra",
+		"wilayah": "Sumatra Selatan",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Palembang",
+				"kode_awal": ["A", "I", "L", "M", "N", "U", "V", "X", "Z"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Musi Banyuasin",
+				"kode_awal": ["B"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Prabumulih",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Muara Enim",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lahat",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Ogan Komering Ulu",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Musi Rawas",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Lubuk Linggau",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Banyuasin",
+				"kode_awal": ["J", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Ogan Komering Ilir",
+				"kode_awal": ["K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Penukal Abab Lematang Ilir",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Musi Rawas Utara",
+				"kode_awal": ["Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Empat Lawang",
+				"kode_awal": ["S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Ogan Ilir",
+				"kode_awal": ["T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Ogan Komering Ulu Selatan",
+				"kode_awal": ["O"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Pagaralam",
+				"kode_awal": ["W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Ogan Komering Ulu Timur",
+				"kode_awal": ["Y"],
+				"kode_akhir": null
+			}
+		]
+	}, 
+	"BH": {
+		"pulau": "Sumatra",
+		"wilayah": "Jambi",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Jambi",
+				"kode_awal": ["A", "H", "L", "M", "N", "Y", "Z"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Batanghari",
+				"kode_awal": ["B", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tebo",
+				"kode_awal": ["C", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kerinci",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tanjung Jabung Barat",
+				"kode_awal": ["E", "O"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Merangin",
+				"kode_awal": ["F", "P", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Muaro Jambi",
+				"kode_awal": ["G", "I"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tanjung Jabung Timur",
+				"kode_awal": ["J", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bungo",
+				"kode_awal": ["K", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sarolangun",
+				"kode_awal": ["Q", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Sungai Penuh",
+				"kode_awal": ["R"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"BK": {
+		"pulau": "Sumatra",
+		"wilayah": "Sumatra Utara bagian Timur (pesisir Timur)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Medan",
+				"kode_awal": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Labuhanbatu Utara",
+				"kode_awal": ["J"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Deli Serdang",
+				"kode_awal": ["M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Tebing Tinggi",
+				"kode_awal": ["N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Batubara",
+				"kode_awal": ["O"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Langkat",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Tanjung Balai",
+				"kode_awal": ["Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Binjai",
+				"kode_awal": ["R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Karo",
+				"kode_awal": ["S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Simalungun",
+				"kode_awal": ["T", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Asahan",
+				"kode_awal": ["V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Pematang Siantar",
+				"kode_awal": ["W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Serdang Bedagai",
+				"kode_awal": ["X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Labuhanbatu",
+				"kode_awal": ["Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Labuhanbatu Selatan",
+				"kode_awal": ["Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"BL": {
+		"pulau": "Sumatra",
+		"wilayah": "Aceh",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Banda Aceh",
+				"kode_awal": ["A", "J"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Besar",
+				"kode_awal": ["B", "L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Barat Daya",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Timur",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Barat",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Langsa",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Tengah",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Gayo Lues",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Subulussalam",
+				"kode_awal": ["I"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Utara",
+				"kode_awal": ["K", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Sabang",
+				"kode_awal": ["M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Lhokseumawe",
+				"kode_awal": ["N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pidie Jaya",
+				"kode_awal": ["O"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pidie",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Singkil",
+				"kode_awal": ["R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Simeulue",
+				"kode_awal": ["S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Selatan",
+				"kode_awal": ["T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Tamiang",
+				"kode_awal": ["U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Nagan Raya",
+				"kode_awal": ["V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Jaya",
+				"kode_awal": ["W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Aceh Tenggara",
+				"kode_awal": ["X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bener Meriah",
+				"kode_awal": ["Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bireuen",
+				"kode_awal": ["Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"BM": {
+		"pulau": "Sumatra",
+		"wilayah": "Riau",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Pekanbaru",
+				"kode_awal": ["A", "J", "L", "N", "O", "Q", "T", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Indragiri Hulu",
+				"kode_awal": ["B"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pelalawan",
+				"kode_awal": ["C", "I"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bengkalis",
+				"kode_awal": ["D", "E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kampar",
+				"kode_awal": ["F", "Z"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Indragiri Hilir",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Dumai",
+				"kode_awal": ["H", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kuantan Singingi",
+				"kode_awal": ["K", "XK", "XL", "XM", "XN", "XO", "XP", "XQ", "XR", "XS", "XT", "XU", "XV", "XW", "XX", "XY", "XZ"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Rokan Hulu",
+				"kode_awal": ["M", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Rokan Hilir",
+				"kode_awal": ["P", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Siak",
+				"kode_awal": ["S", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kepulauan Meranti",
+				"kode_awal": ["XA", "XB", "XC", "XD", "XE", "XF", "XG", "XH", "XI", "XJ"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"BN": {
+		"pulau": "Sumatra",
+		"wilayah": "Kepulauan Bangka Belitung",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Pangkal Pinang",
+				"kode_awal": ["A", "P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bangka",
+				"kode_awal": ["B", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bangka Tengah",
+				"kode_awal": ["C", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bangka Barat",
+				"kode_awal": ["D", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bangka Selatan",
+				"kode_awal": ["E", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Belitung",
+				"kode_awal": ["F", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Belitung Timur",
+				"kode_awal": ["G", "X"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"BP": {
+		"pulau": "Sumatra",
+		"wilayah": "Kepulauan Riau",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Tanjung Pinang",
+				"kode_awal": ["A", "P", "T", "W"],
+				"kode_akhir": ["T", "W"]
+			},
+			{
+				"nama_daerah": "Bintan",
+				"kode_awal": ["B"],
+				"kode_akhir": ["B"]
+			},
+			{
+				"nama_daerah": "Kota Batam",
+				"kode_awal": ["C", "D", "E", "F", "G", "H", "I", "J", "M", "O", "Q", "R", "U", "V", "X", "Y", "Z"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Karimun",
+				"kode_awal": ["K"],
+				"kode_akhir": ["K"]
+			},
+			{
+				"nama_daerah": "Lingga",
+				"kode_awal": ["L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Natuna",
+				"kode_awal": ["N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kepulauan Anambas",
+				"kode_awal": ["S"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"A": {
+		"pulau": "Jawa",
+		"wilayah": "Banten (sebelumnya bernama Keresidenan Banten)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Serang dan Serang di wilayah hukum Polresta Serang Kota",
+				"kode_awal": ["A", "B", "C", "D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Serang di wilayah hukum Polres Serang",
+				"kode_awal": ["E", "F", "G", "H", "I"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pandeglang",
+				"kode_awal": ["J", "K", "L", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lebak",
+				"kode_awal": ["N", "O", "P", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Cilegon dan Serang di wilayah hukum Polres Cilegon",
+				"kode_awal": ["R", "S", "T", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tangerang di wilayah hukum Polresta Tangerang",
+				"kode_awal": ["V", "W", "X", "Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"B": {
+		"pulau": "Jawa",
+		"wilayah": "Jakarta Raya",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Administrasi Jakarta Pusat",
+				"kode_awal": ["A", "P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Administrasi Jakarta Barat",
+				"kode_awal": ["B", "H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Tangerang dan Tangerang di wilayah hukum Polres Metro Tangerang Kota",
+				"kode_awal": ["C", "G", "J", "L", "O", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Administrasi Jakarta Selatan",
+				"kode_awal": ["D", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Depok dan Bogor di wilayah hukum Polres Metro Depok",
+				"kode_awal": ["E", "Z"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bekasi",
+				"kode_awal": ["F", "M", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Bekasi",
+				"kode_awal": ["K", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Tangerang Selatan dan Tangerang di wilayah hukum Polres Tangerang Selatan",
+				"kode_awal": ["N", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Administrasi Jakarta Utara dan Kabupaten Administrasi Kepulauan Seribu",
+				"kode_awal": ["Q", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Administrasi Jakarta Timur",
+				"kode_awal": ["R", "T"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"D": {
+		"pulau": "Jawa",
+		"wilayah": "Bandung Raya (eks Keresidenan Priangan) bagian tengah",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Bandung",
+				"kode_awal": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Cimahi",
+				"kode_awal": ["S", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bandung Barat",
+				"kode_awal": ["U", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bandung",
+				"kode_awal": ["V", "W", "Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"E": {
+		"pulau": "Jawa",
+		"wilayah": "Cirebon Raya (eks Keresidenan Cirebon)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Cirebon dan Cirebon di wilayah hukum Polres Cirebon Kota",
+				"kode_awal": ["A", "B", "C", "D", "F", "G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Cirebon di wilayah hukum Polresta Cirebon",
+				"kode_awal": ["H", "I", "J", "K", "L", "L", "M", "N", "O"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Indramayu",
+				"kode_awal": ["P", "Q", "R", "S", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Majalengka",
+				"kode_awal": ["U", "V", "W", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kuningan",
+				"kode_awal": ["Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"F": {
+		"pulau": "Jawa",
+		"wilayah": "Bogor Raya (eks Keresidenan Bogor) dan Keresidenan Priangan bagian barat (tidak termasuk Depok)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Bogor",
+				"kode_awal": ["A", "B", "C", "D", "E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bogor di wilayah hukum Polres Bogor ",
+				"kode_awal": ["F", "G", "H", "I", "J", "K", "L", "M", "N", "P", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Sukabumi",
+				"kode_awal": ["O", "S", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sukabumi",
+				"kode_awal": ["Q", "U", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Cianjur",
+				"kode_awal": ["W", "X", "Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"T": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Karawang",
+		"daerah": [
+			{
+				"nama_daerah": "Purwakarta",
+				"kode_awal": ["A", "B", "C", "I", "J", "O", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Karawang",
+				"kode_awal": ["D", "E", "F", "G", "H", "K", "L", "M", "N", "P", "R", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Subang",
+				"kode_awal": ["T", "U", "V", "W", "X", "Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"Z": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Priangan bagian timur",
+		"daerah": [
+			{
+				"nama_daerah": "Sumedang",
+				"kode_awal": ["A", "B", "C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Garut",
+				"kode_awal": ["D", "E", "F", "G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Tasikmalaya",
+				"kode_awal": ["H", "I", "J", "K", "L", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tasikmalaya",
+				"kode_awal": ["N", "O", "P", "Q", "R", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Ciamis",
+				"kode_awal": ["T", "V", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pangandaran",
+				"kode_awal": ["U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Banjar",
+				"kode_awal": ["X", "Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"G": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Pekalongan",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Pekalongan",
+				"kode_awal": null,
+				"kode_akhir": ["A", "H", "S"]
+			},
+			{
+				"nama_daerah": "Pekalongan",
+				"kode_awal": null,
+				"kode_akhir": ["B", "K", "O", "T"]
+			},
+			{
+				"nama_daerah": "Batang",
+				"kode_awal": null,
+				"kode_akhir": ["C", "L", "V"]
+			},
+			{
+				"nama_daerah": "Pemalang",
+				"kode_awal": null,
+				"kode_akhir": ["D", "I", "M", "W"]
+			},
+			{
+				"nama_daerah": "Kota Tegal",
+				"kode_awal": null,
+				"kode_akhir": ["E", "N", "Y"]
+			},
+			{
+				"nama_daerah": "Tegal",
+				"kode_awal": null,
+				"kode_akhir": ["F", "P", "Q", "Z"]
+			},
+			{
+				"nama_daerah": "Brebes",
+				"kode_awal": null,
+				"kode_akhir": ["G", "J", "R", "U"]
+			}
+		]
+	},
+	"H": {
+		"pulau": "Jawa",
+		"wilayah": "Semarang Raya (eks Keresidenan Semarang)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Semarang",
+				"kode_awal": null,
+				"kode_akhir": ["A", "F", "G", "H", "P", "Q", "R", "S", "W", "Y", "Z"]
+			},
+			{
+				"nama_daerah": "Kota Salatiga",
+				"kode_awal": null,
+				"kode_akhir": ["B", "K", "O", "T"]
+			},
+			{
+				"nama_daerah": "Semarang",
+				"kode_awal": null,
+				"kode_akhir": ["C", "I", "L", "V"]
+			},
+			{
+				"nama_daerah": "Kendal",
+				"kode_awal": null,
+				"kode_akhir": ["D", "M", "U"]
+			},
+			{
+				"nama_daerah": "Demak",
+				"kode_awal": null,
+				"kode_akhir": ["E", "J", "N"]
+			}
+		]
+	},
+	"K": {
+		"pulau": "Jawa",
+		"wilayah": "Muria Raya (eks Keresidenan Pati)",
+		"daerah": [
+			{
+				"nama_daerah": "Pati",
+				"kode_awal": null,
+				"kode_akhir": ["A", "G", "H", "S", "U"]
+			},
+			{
+				"nama_daerah": "Kudus",
+				"kode_awal": null,
+				"kode_akhir": ["B", "K", "O", "R", "T"]
+			},
+			{
+				"nama_daerah": "Jepara",
+				"kode_awal": null,
+				"kode_akhir": ["C", "L", "Q", "V"]
+			},
+			{
+				"nama_daerah": "Rembang",
+				"kode_awal": null,
+				"kode_akhir": ["D", "I", "M", "W"]
+			},
+			{
+				"nama_daerah": "Blora",
+				"kode_awal": null,
+				"kode_akhir": ["E", "N", "X", "Y"]
+			},
+			{
+				"nama_daerah": "Grobogan",
+				"kode_awal": null,
+				"kode_akhir": ["F", "J", "P", "Z"]
+			}
+		]
+	},
+	"R": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Banyumas",
+		"daerah": [
+			{
+				"nama_daerah": "Banyumas",
+				"kode_awal": null,
+				"kode_akhir": ["A", "E", "G", "H", "J", "R", "S"]
+			},
+			{
+				"nama_daerah": "Cilacap",
+				"kode_awal": null,
+				"kode_akhir": ["B", "F", "K", "N", "P", "T"]
+			},
+			{
+				"nama_daerah": "Purbalingga",
+				"kode_awal": null,
+				"kode_akhir": ["C", "L", "Q", "U", "V", "Z"]
+			},
+			{
+				"nama_daerah": "Banjarnegara",
+				"kode_awal": null,
+				"kode_akhir": ["D", "I", "M", "O", "W", "Y"]
+			}
+		]
+	},
+	"AA": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Kedu",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Magelang",
+				"kode_awal": null,
+				"kode_akhir": ["A", "H", "S", "U"]
+			},
+			{
+				"nama_daerah": "Magelang",
+				"kode_awal": null,
+				"kode_akhir": ["B", "G", "K", "O", "T"]
+			},
+			{
+				"nama_daerah": "Purworejo",
+				"kode_awal": null,
+				"kode_akhir": ["C", "L", "Q", "V"]
+			},
+			{
+				"nama_daerah": "Kebumen",
+				"kode_awal": null,
+				"kode_akhir": ["D", "J", "M", "W"]
+			},
+			{
+				"nama_daerah": "Temanggung",
+				"kode_awal": null,
+				"kode_akhir": ["E", "N", "Y"]
+			},
+			{
+				"nama_daerah": "Wonosobo",
+				"kode_awal": null,
+				"kode_akhir": ["F", "P", "Z"]
+			}
+		]
+	},
+	"AB": {
+		"pulau": "Jawa",
+		"wilayah": "D.I Yogyakarta (sebelumnya bernama Keresidenan Yogyakarta)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Yogyakarta",
+				"kode_awal": ["A", "F", "H", "I", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bantul",
+				"kode_awal": ["B", "G", "J", "K", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kulon Progo",
+				"kode_awal": ["C", "L", "O", "P", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Gunungkidul",
+				"kode_awal": ["D", "M", "R", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sleman",
+				"kode_awal": ["E", "N", "Q", "U", "X", "Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"AD": {
+		"pulau": "Jawa",
+		"wilayah": "Solo Raya (eks Keresidenan Surakarta)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Surakarta",
+				"kode_awal": null,
+				"kode_akhir": ["A", "H", "S", "U"]
+			},
+			{
+				"nama_daerah": "Sukoharjo",
+				"kode_awal": null,
+				"kode_akhir": ["B", "K", "O", "T"]
+			},
+			{
+				"nama_daerah": "Klaten",
+				"kode_awal": null,
+				"kode_akhir": ["C", "J", "L", "Q", "V"]
+			},
+			{
+				"nama_daerah": "Boyolali",
+				"kode_awal": null,
+				"kode_akhir": ["D", "M", "W"]
+			},
+			{
+				"nama_daerah": "Sragen",
+				"kode_awal": null,
+				"kode_akhir": ["E", "N", "Y"]
+			},
+			{
+				"nama_daerah": "Karanganyar",
+				"kode_awal": null,
+				"kode_akhir": ["F", "P", "Z"]
+			},
+			{
+				"nama_daerah": "Wonogiri",
+				"kode_awal": null,
+				"kode_akhir": ["G", "I", "R"]
+			}
+		]
+	},
+	"L": {
+		"pulau": "Jawa",
+		"wilayah": null,
+		"daerah": [
+			{
+				"nama_daerah": "Kota Surabaya",
+				"kode_awal": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"M": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Madura",
+		"daerah": [
+			{
+				"nama_daerah": "Pamekasan",
+				"kode_awal": ["A", "B", "C", "D", "F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bangkalan",
+				"kode_awal": ["G", "H", "I", "J", "K", "L", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sampang",
+				"kode_awal": ["N", "O", "P", "Q", "R", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sumenep",
+				"kode_awal": ["T", "U", "V", "W", "X", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"N": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Pasuruan-Malang",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Malang",
+				"kode_awal": ["A", "B", "C", "D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Malang di wilayah hukum Polres Malang",
+				"kode_awal": ["E", "F", "G", "H", "I"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Batu dan Malang di wilayah hukum Polres Batu",
+				"kode_awal": ["J", "K", "L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Probolinggo di wilayah hukum Polres Probolinggo",
+				"kode_awal": ["M", "N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pasuruan di wilayah hukum Polres Pasuruan",
+				"kode_awal": ["O", "S", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Probolinggo dan Kota Probolinggo di wilayah hukum Polres Probolinggo Kota",
+				"kode_awal": ["P", "Q", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lumajang",
+				"kode_awal": ["U", "Y", "Z"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pasuruan dan Kota Pasuruan di wilayah hukum Polres Pasuruan Kota",
+				"kode_awal": ["V", "W", "X"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"P": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Besuki",
+		"daerah": [
+			{
+				"nama_daerah": "Bondowoso",
+				"kode_awal": ["A", "B", "C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Situbondo",
+				"kode_awal": ["D", "E", "F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Jember",
+				"kode_awal": ["G", "H", "I", "J", "K", "L", "M", "N", "O", "P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Banyuwangi",
+				"kode_awal": ["Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"S": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Bojonegoro, Mojokerto, dan Jombang",
+		"daerah": [
+			{
+				"nama_daerah": "Bojonegoro",
+				"kode_awal": ["A", "B", "C", "D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tuban",
+				"kode_awal": ["E", "F", "G", "H", "I"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lamongan",
+				"kode_awal": ["J", "K", "L", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mojokerto di wilayah hukum Polres Mojokerto",
+				"kode_awal": ["N", "O", "P", "Q", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mojokerto dan Kota Mojokerto di wilayah hukum Polres Mojokerto Kota",
+				"kode_awal": ["S", "T", "U", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Jombang",
+				"kode_awal": ["O", "W", "X", "Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"W": {
+		"pulau": "Jawa",
+		"wilayah": null,
+		"daerah": [
+			{
+				"nama_daerah": "Gresik",
+				"kode_awal": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sidoarjo",
+				"kode_awal": ["N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"AE": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Madiun",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Madiun di wilayah hukum Polres Madiun Kota",
+				"kode_awal": ["A", "B", "C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Madiun di wilayah hukum Polres Madiun",
+				"kode_awal": ["D", "E", "F", "G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Ngawi",
+				"kode_awal": ["H", "I", "J", "K", "L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Magetan",
+				"kode_awal": ["M", "N", "O", "P", "Q", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Ponorogo",
+				"kode_awal": ["S", "T", "U", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pacitan",
+				"kode_awal": ["W", "X", "Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"AG": {
+		"pulau": "Jawa",
+		"wilayah": "eks Keresidenan Kediri",
+		"daerah": [
+			{
+				"nama_daerah": "Kediri dan Kota Kediri di wilayah hukum Polres Kediri Kota",
+				"kode_awal": ["A", "B", "C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kediri di wilayah hukum Polres Kediri",
+				"kode_awal": ["D", "E", "F", "G", "H", "I", "J", "O"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Blitar di wilayah hukum Polres Blitar",
+				"kode_awal": ["K", "L", "M", "N", "O"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Blitar dan Blitar di wilayah hukum Polres Blitar Kota",
+				"kode_awal": ["P", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tulungagung",
+				"kode_awal": ["R", "S", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Nganjuk",
+				"kode_awal": ["U", "V", "W", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Trenggalek",
+				"kode_awal": ["Y", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DH": {
+		"pulau": "Bali dan Nusa Tenggara",
+		"wilayah": "NTT (Pulau Timor)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Kupang",
+				"kode_awal": ["A", "H", "K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kupang",
+				"kode_awal": ["B", "N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Timor Tengah Selatan",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Timor Tengah Utara",
+				"kode_awal": ["D", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Belu",
+				"kode_awal": ["E", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sabu Raijua",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Rote Ndao",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Malaka",
+				"kode_awal": ["J"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DK": {
+		"pulau": "Bali dan Nusa Tenggara",
+		"wilayah": "Bali",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Denpasar",
+				"kode_awal": ["A", "B", "C", "D", "E", "I", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Badung",
+				"kode_awal": ["F", "J", "O", "Q", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tabanan",
+				"kode_awal": ["G", "H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Gianyar",
+				"kode_awal": ["K", "K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Klungkung",
+				"kode_awal": ["M", "N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bangli",
+				"kode_awal": ["P", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Karangasem",
+				"kode_awal": ["S", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Buleleng",
+				"kode_awal": ["U", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Jembrana",
+				"kode_awal": ["W", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DR": {
+		"pulau": "Bali dan Nusa Tenggara",
+		"wilayah": "NTB (Pulau Lombok)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Mataram",
+				"kode_awal": ["A", "B", "C", "E", "F", "N", "O", "P", "R", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lombok Utara",
+				"kode_awal": ["D", "G", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lombok Barat",
+				"kode_awal": ["H", "J", "K", "T", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lombok Timur",
+				"kode_awal": ["L", "Q", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lombok Tengah",
+				"kode_awal": ["S", "U", "V", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"EA": {
+		"pulau": "Bali dan Nusa Tenggara",
+		"wilayah": "NTB (Pulau Sumbawa)",
+		"daerah": [
+			{
+				"nama_daerah": "Sumbawa",
+				"kode_awal": ["A", "C", "D", "E", "F", "P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sumbawa Barat",
+				"kode_awal": ["H", "K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Bima",
+				"kode_awal": ["L", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Dompu",
+				"kode_awal": ["M", "Q", "R", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bima",
+				"kode_awal": ["X", "Y"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"EB": {
+		"pulau": "Bali dan Nusa Tenggara",
+		"wilayah": "NTT (Pulau Flores dan kepulauan)",
+		"daerah": [
+			{
+				"nama_daerah": "Ende",
+				"kode_awal": ["A"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sikka",
+				"kode_awal": ["B"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Flores Timur",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Ngada",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Manggarai",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lembata",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Manggarai Barat",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Nagekeo",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Alor",
+				"kode_awal": ["J", "K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Manggarai Timur",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"ED": {
+		"pulau": "Bali dan Nusa Tenggara",
+		"wilayah": "NTT (Pulau Sumba)",
+		"daerah": [
+			{
+				"nama_daerah": "Sumba Timur",
+				"kode_awal": ["A"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sumba Barat",
+				"kode_awal": ["B"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sumba Barat Daya",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sumba Tengah",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DA": {
+		"pulau": "Kalimantan",
+		"wilayah": "Kalimantan Selatan",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Banjarmasin",
+				"kode_awal": ["A", "C", "I", "J", "N", "S", "T", "V", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Banjar",
+				"kode_awal": ["B", "O", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Hulu Sungai Selatan",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Hulu Sungai Tengah",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Hulu Sungai Utara",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Baru",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tabalong",
+				"kode_awal": ["H", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tapin",
+				"kode_awal": ["K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tanah Laut",
+				"kode_awal": ["L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Barito Kuala",
+				"kode_awal": ["M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Banjarbaru",
+				"kode_awal": ["P", "R", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Balangan",
+				"kode_awal": ["Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tanah Bumbu",
+				"kode_awal": ["Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"KB": {
+		"pulau": "Kalimantan",
+		"wilayah": "Kalimantan Barat",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Pontianak",
+				"kode_awal": ["A", "H", "N", "O", "Q", "S", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mempawah",
+				"kode_awal": ["B"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Singkawang",
+				"kode_awal": ["C", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sanggau",
+				"kode_awal": ["D", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sintang",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kapuas Hulu",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Ketapang",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Melawi",
+				"kode_awal": ["J"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bengkayang",
+				"kode_awal": ["K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Landak",
+				"kode_awal": ["L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kubu Raya",
+				"kode_awal": ["M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sambas",
+				"kode_awal": ["P", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sekadau",
+				"kode_awal": ["V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kayong Utara",
+				"kode_awal": ["Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"KH": {
+		"pulau": "Kalimantan",
+		"wilayah": "Kalimantan Tengah",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Palangkaraya",
+				"kode_awal": ["A", "T", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kapuas",
+				"kode_awal": ["B", "C", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Barito Selatan",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Barito Utara",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kotawaringin Timur",
+				"kode_awal": ["F", "L", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kotawaringin Barat",
+				"kode_awal": ["G", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Gunung Mas",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Gunung Pisau",
+				"kode_awal": ["J"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Barito Timur",
+				"kode_awal": ["K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Murung Raya",
+				"kode_awal": ["M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Katingan",
+				"kode_awal": ["N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Seruyan",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Lamandau",
+				"kode_awal": ["R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sukamara",
+				"kode_awal": ["S"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"KT": {
+		"pulau": "Kalimantan",
+		"wilayah": "Kalimantan Timur",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Balikpapan",
+				"kode_awal": ["A", "H", "K", "L", "Y", "Z"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Samarinda",
+				"kode_awal": ["B", "F", "I", "M", "N", "S", "W", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kutai Kartanegara",
+				"kode_awal": ["C", "J", "O", "S", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Bontang",
+				"kode_awal": ["D", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Paser",
+				"kode_awal": ["E", "J", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Berau",
+				"kode_awal": ["G", "J", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kutai Timur",
+				"kode_awal": ["J", "R", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kutai Barat",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mahakam Ulu",
+				"kode_awal": ["T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Penajam Paser Utara",
+				"kode_awal": ["V"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"KU": {
+		"pulau": "Kalimantan",
+		"wilayah": "Kalimantan Utara",
+		"daerah": [
+			{
+				"nama_daerah": "Bulungan",
+				"kode_awal": ["A", "B"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Tarakan",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tana Tidung",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Nunukan",
+				"kode_awal": ["N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Malinau",
+				"kode_awal": ["S"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DB": {
+		"pulau": "Sulawesi",
+		"wilayah": "Sulawesi Utara (Daratan)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Manado",
+				"kode_awal": ["A", "L", "M", "R", "T", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Minahasa",
+				"kode_awal": ["B", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Bitung",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bolaang Mongondow",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Minahasa Selatan",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Minahasa Utara",
+				"kode_awal": ["F", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Tomohon",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bolaang Mongondow Utara",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Minahasa Tenggara",
+				"kode_awal": ["J"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Kotamobagu",
+				"kode_awal": ["K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bolaang Mongondow Timur",
+				"kode_awal": ["N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bolaang Mongondow Selatan",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DC": {
+		"pulau": "Sulawesi",
+		"wilayah": "Sulawesi Barat",
+		"daerah": [
+			{
+				"nama_daerah": "Mamuju",
+				"kode_awal": ["A", "G", "L", "P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Majene",
+				"kode_awal": ["B", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Polewali Mandar",
+				"kode_awal": ["C", "N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mamasa",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pasangkayu",
+				"kode_awal": ["E", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mamuju Tengah",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DD": {
+		"pulau": "Sulawesi",
+		"wilayah": "Sulawesi Selatan (bagian selatan)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Makassar",
+				"kode_awal": ["A", "I", "K", "M", "O", "Q", "R", "S", "U", "V", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Gowa",
+				"kode_awal": ["B", "L", "N", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Takalar",
+				"kode_awal": ["C", "P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Maros",
+				"kode_awal": ["D", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pangkajene Kepulauan",
+				"kode_awal": ["E", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bantaeng",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Jeneponto",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bulukumba",
+				"kode_awal": ["H", "Z"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Selayar",
+				"kode_awal": ["J"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DL": {
+		"pulau": "Sulawesi",
+		"wilayah": "Sulawesi Utara (Kepulauan)",
+		"daerah": [
+			{
+				"nama_daerah": "Kepulauan Sangihe",
+				"kode_awal": ["A"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kepulauan Talaud",
+				"kode_awal": ["B"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kepulauan Sitaro",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DM": {
+		"pulau": "Sulawesi",
+		"wilayah": "Gorontalo",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Gorontalo",
+				"kode_awal": ["A", "J", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Gorontalo",
+				"kode_awal": ["B", "H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Boalemo",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pohuwato",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Bone Bolango",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Gorontalo Utar",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DN": {
+		"pulau": "Sulawesi",
+		"wilayah": "Sulawesi Tengah",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Palu",
+				"kode_awal": ["A", "I", "N", "V", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Donggala",
+				"kode_awal": ["B", "J"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Banggai",
+				"kode_awal": ["C", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Toli-Toli",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Poso",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Buol",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Morowali",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Banggai Kepulauan",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Parigi Moutong",
+				"kode_awal": ["K", "P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tojo Una-Una",
+				"kode_awal": ["L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sigi",
+				"kode_awal": ["M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Banggai Laut",
+				"kode_awal": ["Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Morowali Utara",
+				"kode_awal": ["U"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DP": {
+		"pulau": "Sulawesi",
+		"wilayah": "Sulawesi Selatan (bagian utara)",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Parepare",
+				"kode_awal": ["A", "L", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Barru",
+				"kode_awal": ["B", "N", "O"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sidenreng Rappang",
+				"kode_awal": ["C", "P", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pinrang",
+				"kode_awal": ["D", "R", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Palopo",
+				"kode_awal": ["E", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Luwu",
+				"kode_awal": ["F", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Luwu Timur",
+				"kode_awal": ["G", "V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Luwu Utara",
+				"kode_awal": ["H", "W"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Enrekang",
+				"kode_awal": ["I", "X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tana Toraja",
+				"kode_awal": ["J", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Toraja Utara",
+				"kode_awal": ["K", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DT": {
+		"pulau": "Sulawesi",
+		"wilayah": "Sulawesi Tenggara",
+		"daerah": [
+			{
+				"nama_daerah": "Konawe",
+				"kode_awal": null,
+				"kode_akhir": ["A"]
+			},
+			{
+				"nama_daerah": "Kolaka",
+				"kode_awal": null,
+				"kode_akhir": ["B"]
+			},
+			{
+				"nama_daerah": "Buton",
+				"kode_awal": null,
+				"kode_akhir": ["C"]
+			},
+			{
+				"nama_daerah": "Muna",
+				"kode_awal": null,
+				"kode_akhir": ["D"]
+			},
+			{
+				"nama_daerah": "Kota Kendari",
+				"kode_awal": null,
+				"kode_akhir": ["E", "F", "I"]
+			},
+			{
+				"nama_daerah": "Kota Baubau",
+				"kode_awal": null,
+				"kode_akhir": ["G"]
+			},
+			{
+				"nama_daerah": "Konawe Selatan",
+				"kode_awal": null,
+				"kode_akhir": ["H"]
+			},
+			{
+				"nama_daerah": "Kolaka Utara",
+				"kode_awal": null,
+				"kode_akhir": ["J"]
+			},
+			{
+				"nama_daerah": "Bombana",
+				"kode_awal": null,
+				"kode_akhir": ["K"]
+			},
+			{
+				"nama_daerah": "Wakatobi",
+				"kode_awal": null,
+				"kode_akhir": ["L"]
+			},
+			{
+				"nama_daerah": "Konawe Utara",
+				"kode_awal": null,
+				"kode_akhir": ["M"]
+			},
+			{
+				"nama_daerah": "Buton Utara",
+				"kode_awal": null,
+				"kode_akhir": ["N"]
+			},
+			{
+				"nama_daerah": "Konawe Kepulauan",
+				"kode_awal": null,
+				"kode_akhir": ["O"]
+			},
+			{
+				"nama_daerah": "Muna Barat",
+				"kode_awal": null,
+				"kode_akhir": ["R"]
+			},
+			{
+				"nama_daerah": "Kolaka Timur",
+				"kode_awal": null,
+				"kode_akhir": ["T"]
+			},
+			{
+				"nama_daerah": "Buton Selatan",
+				"kode_awal": null,
+				"kode_akhir": ["W"]
+			},
+			{
+				"nama_daerah": "Buton Tengah",
+				"kode_awal": null,
+				"kode_akhir": ["Y"]
+			}
+		]
+	},
+	"DW": {
+		"pulau": "Sulawesi",
+		"wilayah": "Sulawesi Selatan (bagian tengah)",
+		"daerah": [
+			{
+				"nama_daerah": "Bone",
+				"kode_awal": ["A", "E", "F", "G", "H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Wajo",
+				"kode_awal": ["B", "L", "M", "N", "O", "P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Soppeng",
+				"kode_awal": ["C", "Q", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sinjai",
+				"kode_awal": ["D", "V", "Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DE": {
+		"pulau": "Maluku dan Papua",
+		"wilayah": "Maluku",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Ambon",
+				"kode_awal": ["A", "L", "N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Maluku Tengah",
+				"kode_awal": ["B"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Maluku Tenggara",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Buru",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kepulauan Tanimbar",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kepulauan Aru",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Seram Bagian Barat",
+				"kode_awal": ["G", "O"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Seram Bagian Timur",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Tual",
+				"kode_awal": ["I"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Maluku Barat Daya",
+				"kode_awal": ["J"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Buru Selatan",
+				"kode_awal": ["K"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"DG": {
+		"pulau": "Maluku dan Papua",
+		"wilayah": "Maluku Utara",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Ternate",
+				"kode_awal": ["A", "K", "Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Tidore Kepulauan",
+				"kode_awal": ["B", "L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Halmahera Timur",
+				"kode_awal": ["D", "T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kepulauan Sula",
+				"kode_awal": ["E", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pulau Taliabu",
+				"kode_awal": ["H"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pulau Morotai",
+				"kode_awal": ["J", "U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Halmahera Barat",
+				"kode_awal": ["M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Halmahera Utara",
+				"kode_awal": ["N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Halmahera Selatan",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Halmahera Tengah",
+				"kode_awal": ["S"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"PA": {
+		"pulau": "Maluku dan Papua",
+		"wilayah": "Papua, Papua Selatan, Papua Tengah, dan Papua Pegunungan",
+		"daerah": [
+			{
+				"nama_daerah": "Kota Jayapura",
+				"kode_awal": ["A", "F", "R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Jayawijaya, Mamberamo Tengah, Nduga, Pegunungan Bintang, Yahukimo, dan Yalimo",
+				"kode_awal": ["B", "Y"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Biak Numfor",
+				"kode_awal": ["C"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mimika",
+				"kode_awal": ["D", "H", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Paniai dan Deiyai",
+				"kode_awal": ["E"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Merauke dan Asmat",
+				"kode_awal": ["G"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Jayapura",
+				"kode_awal": ["J"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Nabire, Dogiyai, dan Intan Jaya",
+				"kode_awal": ["K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kepulauan Yapen",
+				"kode_awal": ["L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Waropen",
+				"kode_awal": ["N"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Puncak Jaya dan Puncak",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Keerom",
+				"kode_awal": ["Q"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sarmi",
+				"kode_awal": ["S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mappi",
+				"kode_awal": ["T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Supiori",
+				"kode_awal": ["U"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Boven Digoel",
+				"kode_awal": ["V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Mamberamo Raya",
+				"kode_awal": ["X"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tolikara dan Lanny Jaya",
+				"kode_awal": ["Z"],
+				"kode_akhir": null
+			}
+		]
+	},
+	"PB": {
+		"pulau": "Maluku dan Papua",
+		"wilayah": "Papua Barat dan Papua Barat Daya",
+		"daerah": [
+			{
+				"nama_daerah": "Sorong",
+				"kode_awal": ["A"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Teluk Bintuni",
+				"kode_awal": ["B"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Pegunungan Arfak",
+				"kode_awal": ["D"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Fakfak",
+				"kode_awal": ["F"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Manokwari",
+				"kode_awal": ["G", "H", "M"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kaimana",
+				"kode_awal": ["K"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Manokwari Selatan",
+				"kode_awal": ["L"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Tambrauw",
+				"kode_awal": ["P"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Kota Sorong",
+				"kode_awal": ["Q", "S"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Raja Ampat",
+				"kode_awal": ["R"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Sorong Selatan",
+				"kode_awal": ["T"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Maybrat",
+				"kode_awal": ["V"],
+				"kode_akhir": null
+			},
+			{
+				"nama_daerah": "Teluk Wondama",
+				"kode_awal": ["W"],
+				"kode_akhir": null
+			}
+		]
+	}
+}

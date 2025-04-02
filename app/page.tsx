@@ -1,103 +1,95 @@
-import Image from "next/image";
+import PlatNomorChecker from './PlatNomorChecker'
+import type { Metadata } from 'next'
+import fs from 'fs'
+import path from 'path'
 
-export default function Home() {
+interface PlatWilayah {
+  pulau: string
+  wilayah: string
+  daerah: {
+    nama_daerah: string
+    kode_awal: string[] | null
+    kode_akhir: string[] | null
+  }[]
+}
+
+export const metadata: Metadata = {
+  title: 'Cek Informasi Plat Nomor Indonesia | Cek Plat Nomor Cepat dan Akurat',
+  description: 'Gunakan alat cek informasi plat nomor Indonesia kami untuk mengetahui lokasi, kode wilayah, dan detail nomor polisi dengan cepat dan akurat.',
+  keywords: ['Plat Nomor Indonesia', 'Cek Plat Nomor', 'Informasi Plat Nomor'],
+  openGraph: {
+    title: 'Cek Informasi Plat Nomor Indonesia | Cek Plat Nomor Cepat dan Akurat',
+    description: 'Gunakan alat cek informasi plat nomor Indonesia kami untuk mengetahui lokasi, kode wilayah, dan detail nomor polisi dengan cepat dan akurat.',
+    url: 'https://cek-plat.jeyy.xyz',
+    type: 'website',
+    images: [
+      {
+        url: 'https://cek-plat.jeyy.xyz/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Cek Informasi Plat Nomor',
+      }
+    ]
+  },
+  alternates: {
+    canonical: 'https://cek-plat.jeyy.xyz',
+  }
+}
+
+function getPlatData(): Record<string, PlatWilayah> {
+  const filePath = path.join(process.cwd(), 'data', 'plat.json')
+  const fileContents = fs.readFileSync(filePath, 'utf-8')
+  return JSON.parse(fileContents)
+}
+
+export default function Page() {
+  const data = getPlatData()
+
+  const faqSections = Object.entries(data).map(([kode, info]) => {
+    const daerahList = info.daerah.map((d) => d.nama_daerah).join(', ')
+    return (
+      <section key={kode} className="mb-6">
+        <h3 className="text-md font-semibold mb-1">Plat {kode} dari mana?</h3>
+        <p>
+          Plat <strong>{kode}</strong> berasal dari wilayah <strong>{info.wilayah}</strong> di Pulau {info.pulau}, meliputi daerah seperti {daerahList}.
+        </p>
+      </section>
+    )
+  })
+
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: Object.entries(data).map(([kode, info]) => {
+      const daerahList = info.daerah.map((d) => d.nama_daerah).join(', ')
+      return {
+        "@type": "Question",
+        name: `Plat ${kode} dari mana?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `Plat ${kode} berasal dari wilayah ${info.wilayah} di Pulau ${info.pulau}, meliputi daerah seperti ${daerahList}.`
+        }
+      }
+    })
+  }
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main>
+      <PlatNomorChecker />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+      <section className="mt-8 px-6 max-w-3xl mx-auto">
+        <h2 className="text-xl font-bold mb-4">Tentang Alat Cek Plat Nomor</h2>
+        <p>Alat ini membantu Anda mengetahui asal wilayah dari plat nomor seperti B, AD, AB, dan lainnya.</p>
+      </section>
+
+      <section className="mt-12 px-6 max-w-3xl mx-auto">
+        <h2 className="text-xl font-bold mb-4">Pertanyaan Umum tentang Plat Nomor</h2>
+        {faqSections}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
+        />
+      </section>
+    </main>
+  )
 }
