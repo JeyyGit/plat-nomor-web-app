@@ -85,7 +85,7 @@ export default function PlatNomorChecker() {
       </button>
 
       <h1 className="text-2xl font-bold mb-6">
-        Cek Wilayah atau Daerah Asal Plat Nomor
+        Cek Wilayah Plat Nomor
       </h1>
 
       <form onSubmit={handleSubmit} className="flex flex-col items-center gap-4">
