@@ -14,8 +14,8 @@ interface PlatWilayah {
 }
 
 export const metadata: Metadata = {
-  title: 'Cek Informasi Plat Nomor Indonesia | Cek Plat Nomor Cepat dan Akurat',
-  description: 'Gunakan alat cek informasi plat nomor Indonesia kami untuk mengetahui lokasi, kode wilayah, dan detail nomor polisi dengan cepat dan akurat.',
+  title: 'Cek Plat Nomor Indonesia - Cepat dan Akurat',
+  description: 'Cek informasi plat nomor Indonesia secara cepat dan akurat. Temukan asal daerah kendaraan, kode wilayah, dan detail nomor polisi dengan mudah.',
   keywords: ['Plat Nomor Indonesia', 'Cek Plat Nomor', 'Informasi Plat Nomor'],
   openGraph: {
     title: 'Cek Informasi Plat Nomor Indonesia | Cek Plat Nomor Cepat dan Akurat',
