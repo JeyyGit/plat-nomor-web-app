@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     icon: "/favicon.ico"
   },
   openGraph: {
-    title: 'Cek Wilayah Plat Nomor Indonesia - Cepat & Akurat',
+    title: 'Cek Wilayah Plat Nomor Indonesia',
     description: 'Cari tahu asal daerah kendaraan dari plat nomor seperti B, AD, AB dan lainnya secara langsung dan akurat.',
     url: 'https://cek-plat.jeyy.xyz',
     type: 'website',
