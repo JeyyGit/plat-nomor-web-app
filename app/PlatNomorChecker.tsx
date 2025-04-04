@@ -27,12 +27,15 @@ export default function PlatNomorChecker() {
   const [loading, setLoading] = useState(false)
   const [isDark, setIsDark] = useState(false)
 
-  const inputRef = useRef<HTMLInputElement>(null)
+  const hurufDepanRef = useRef<HTMLInputElement>(null)
+  const nomorRef = useRef<HTMLInputElement>(null)
+  const hurufBelakangRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
     setIsDark(prefersDark)
     document.documentElement.classList.toggle('dark', prefersDark)
+    hurufDepanRef.current?.focus()
   }, [])
 
   const toggleTheme = () => {
@@ -71,7 +74,7 @@ export default function PlatNomorChecker() {
     setNomor('')
     setHurufBelakang('')
     setResponse(null)
-    inputRef.current?.focus()
+    hurufDepanRef.current?.focus()
   }
 
   return (
@@ -91,33 +94,57 @@ export default function PlatNomorChecker() {
       <form onSubmit={handleSubmit} className="flex flex-col items-center gap-4">
         <div className="flex shadow-sm rounded overflow-hidden border border-gray-400 bg-white dark:bg-gray-800">
           <input
-            ref={inputRef}
+            ref={hurufDepanRef}
             className="px-3 py-2 w-16 text-center uppercase border-r border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
             placeholder="B"
             maxLength={2}
             required
             value={hurufDepan}
-            onChange={(e) =>
-              setHurufDepan(e.target.value.replace(/[^a-zA-Z]/g, '').toUpperCase())
-            }
+            onChange={(e) => {
+              const value = e.target.value.replace(/[^a-zA-Z]/g, '').toUpperCase()
+              setHurufDepan(value)
+              if (value.length === 2) nomorRef.current?.focus()
+            }}
+            onKeyDown={(e) => {
+              if (e.key === 'Backspace' && hurufDepan.length === 0) {
+                hurufDepanRef.current?.focus()
+              }
+            }}
           />
           <input
+            ref={nomorRef}
             className="px-3 py-2 w-24 text-center border-r border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
             placeholder="1234"
             maxLength={4}
             required
             value={nomor}
-            onChange={(e) => setNomor(e.target.value.replace(/[^0-9]/g, ''))}
+            onChange={(e) => {
+              const value = e.target.value.replace(/[^0-9]/g, '')
+              setNomor(value)
+              if (value.length === 4) hurufBelakangRef.current?.focus()
+            }}
+            onKeyDown={(e) => {
+              if (e.key === 'Backspace' && nomor.length === 0) {
+                hurufDepanRef.current?.focus()
+              }
+            }}
           />
           <input
+            ref={hurufBelakangRef}
             className="px-3 py-2 w-20 text-center uppercase bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
             placeholder="XYZ"
             maxLength={3}
             required
             value={hurufBelakang}
-            onChange={(e) =>
-              setHurufBelakang(e.target.value.replace(/[^a-zA-Z]/g, '').toUpperCase())
-            }
+            onChange={(e) => {
+              const value = e.target.value.replace(/[^a-zA-Z]/g, '').toUpperCase()
+              setHurufBelakang(value)
+            }}
+            onKeyDown={(e) => {
+              if (e.key === 'Backspace' && hurufBelakang.length === 0) {
+                nomorRef.current?.focus()
+              }
+            }}
           />
         </div>
 
@@ -150,12 +177,8 @@ export default function PlatNomorChecker() {
             <div className="p-4 bg-white dark:bg-gray-800 rounded-xl shadow space-y-4">
               <div>
                 <h2 className="text-lg font-semibold mb-1">📍 Lokasi</h2>
-                <p>
-                  <span className="font-medium">Pulau:</span> {response.lokasi?.pulau || '-'}
-                </p>
-                <p>
-                  <span className="font-medium">Wilayah:</span> {response.lokasi?.wilayah || '-'}
-                </p>
+                <p><span className="font-medium">Pulau:</span> {response.lokasi?.pulau || '-'}</p>
+                <p><span className="font-medium">Wilayah:</span> {response.lokasi?.wilayah || '-'}</p>
                 {response.lokasi?.daerah?.length ? (
                   <ul className="list-disc list-inside text-sm mt-1">
                     {response.lokasi.daerah.map((item, i) => (
@@ -164,21 +187,11 @@ export default function PlatNomorChecker() {
                   </ul>
                 ) : null}
               </div>
-
               <div>
                 <h2 className="text-lg font-semibold mb-1">🔤 Bagian Plat</h2>
-                <p>
-                  <span className="font-medium">Kode Wilayah:</span>{' '}
-                  {response.bagian?.kode_wilayah || '-'}
-                </p>
-                <p>
-                  <span className="font-medium">Nomor Polisi:</span>{' '}
-                  {response.bagian?.nomor_polisi || '-'}
-                </p>
-                <p>
-                  <span className="font-medium">Kode Seri Wilayah:</span>{' '}
-                  {response.bagian?.kode_seri_wilayah || '-'}
-                </p>
+                <p><span className="font-medium">Kode Wilayah:</span> {response.bagian?.kode_wilayah || '-'}</p>
+                <p><span className="font-medium">Nomor Polisi:</span> {response.bagian?.nomor_polisi || '-'}</p>
+                <p><span className="font-medium">Kode Seri Wilayah:</span> {response.bagian?.kode_seri_wilayah || '-'}</p>
               </div>
             </div>
           )}
