@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import ThemeProvider from '../theme/theme-provider'
 
 export const metadata: Metadata = {
@@ -24,6 +25,23 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+
+        {process.env.NODE_ENV === 'production' && (
+          <>
+            <Script
+              src="https://www.googletagmanager.com/gtag/js?id=G-W74DXYGB8V"
+              strategy="afterInteractive"
+            />
+            <Script id="gtag-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-W74DXYGB8V');
+              `}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   )
